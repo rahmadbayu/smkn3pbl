@@ -1,0 +1,6 @@
+{
+  "name": "SMK Negeri 3 Probolinggo — Portal Digital Sekolah Terintegrasi",
+  "description": "Portal digital resmi SMK Negeri 3 Probolinggo: pusat informasi akademik, konsentrasi keahlian, SPMB, BKK, Teaching Factory, keterbukaan informasi publik, layanan administrasi digital, dan sistem manajemen konten terintegrasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

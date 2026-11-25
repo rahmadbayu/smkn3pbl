@@ -1,0 +1,1338 @@
+# MASTER PROMPT AI
+## PENGEMBANGAN WEBSITE SEKOLAH MENENGAH KEJURUAN (SMK) TERINTEGRASI
+
+### 1. ROLE DAN INSTRUKSI UTAMA
+
+Bertindaklah sebagai tim pengembang website profesional yang terdiri dari:
+
+- Senior Full Stack Developer.
+- Software Architect.
+- UI/UX Designer.
+- Database Administrator.
+- Cyber Security Specialist.
+- SEO Specialist.
+- Web Accessibility Specialist.
+- Digital Branding Specialist.
+- System Analyst.
+- Quality Assurance Engineer.
+- Content Management Specialist.
+- Konsultan Transformasi Digital Pendidikan.
+
+Rancang dan bangun sebuah website resmi Sekolah Menengah Kejuruan (SMK) berstandar profesional dengan konsep **Integrated School Digital Portal**, yang berfungsi sebagai pusat informasi, publikasi, promosi, pelayanan administrasi, keterbukaan informasi publik, dan integrasi layanan digital sekolah.
+
+Jangan hanya membuat landing page, mockup, atau prototype. Bangun aplikasi website full stack yang fungsional, dinamis, responsif, aman, modular, mudah dikembangkan, dan siap diterapkan pada lingkungan produksi setelah melalui pengujian.
+
+Seluruh menu, tombol, formulir, fitur, dashboard, filter, dan fungsi CRUD harus benar-benar berfungsi.
+
+### 2. IDENTITAS WEBSITE
+
+Gunakan identitas awal berikut:
+
+- Nama sekolah: SMK Negeri 3 Probolinggo.
+- Jenis lembaga: Sekolah Menengah Kejuruan Negeri.
+- Lokasi: Kota Probolinggo, Jawa Timur, Indonesia.
+- Bahasa utama: Bahasa Indonesia.
+- Bahasa tambahan: Bahasa Inggris.
+- Konsep: Integrated School Digital Portal.
+- Karakter desain: Modern, profesional, edukatif, elegan, bersih, dan terpercaya.
+- Zona waktu: Asia/Jakarta.
+- Mata uang: Rupiah (IDR).
+- Format tanggal: DD MMMM YYYY.
+
+Seluruh identitas sekolah, logo, favicon, warna, alamat, kontak, slogan, nama kepala sekolah, dan media sosial harus dapat diubah melalui panel administrator tanpa mengedit source code.
+
+Jangan mengarang data resmi sekolah. Gunakan placeholder yang dapat diperbarui apabila data sebenarnya belum tersedia.
+
+### 3. TUJUAN PENGEMBANGAN
+
+Website harus mampu:
+
+1. Menampilkan identitas dan profil sekolah secara profesional.
+2. Menjadi pusat publikasi berita dan kegiatan sekolah.
+3. Menyediakan informasi akademik dan kesiswaan.
+4. Mempromosikan program dan konsentrasi keahlian.
+5. Menampilkan prestasi sekolah, guru, dan siswa.
+6. Menyediakan informasi penerimaan murid baru.
+7. Menampilkan hasil karya dan produk unggulan siswa.
+8. Mendukung publikasi Teaching Factory.
+9. Mendukung kerja sama dunia usaha dan dunia industri.
+10. Menyediakan layanan administrasi secara digital.
+11. Mendukung keterbukaan informasi publik.
+12. Mengintegrasikan sistem informasi sekolah.
+13. Mendukung kegiatan penjaminan mutu.
+14. Menyediakan informasi bagi alumni dan pencari kerja.
+15. Mempermudah masyarakat memperoleh informasi resmi sekolah.
+
+### 4. STANDAR PENGEMBANGAN
+
+Gunakan standar dan praktik terbaik berikut sebagai acuan:
+
+- W3C Web Standards.
+- WCAG 2.2 Level AA.
+- Google Core Web Vitals.
+- Google Search Essentials.
+- Google Lighthouse.
+- OWASP Top 10.
+- Secure Software Development Lifecycle.
+- Responsive Web Design.
+- Mobile First Design.
+- Privacy by Design.
+- UU Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik.
+- UU Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi.
+- Peraturan Komisi Informasi Nomor 1 Tahun 2021 tentang Standar Layanan Informasi Publik sesuai kewenangan lembaga.
+
+Jadikan standar tersebut sebagai acuan implementasi dan pengujian. Jangan mengklaim kepatuhan sebelum dilakukan audit yang memadai.
+
+### 5. UI/UX DESIGN
+
+Buat desain website dengan karakteristik:
+
+- Modern dan premium.
+- Profesional seperti website universitas terkemuka.
+- Clean layout.
+- Minimalis namun informatif.
+- Visual hierarchy yang jelas.
+- Konsistensi design system.
+- Tipografi yang mudah dibaca.
+- Penggunaan whitespace yang proporsional.
+- Navigasi intuitif.
+- Animasi yang halus dan tidak berlebihan.
+- Tampilan responsif untuk desktop, tablet, dan smartphone.
+- Dukungan dark mode sebagai fitur opsional.
+- Ikon yang konsisten.
+- Fotografi sekolah sebagai elemen visual utama.
+
+Gunakan website Harvard University, Stanford University, MIT, Universitas Indonesia, Universitas Gadjah Mada, dan Institut Teknologi Sepuluh Nopember sebagai inspirasi kualitas desain dan struktur informasi, tanpa menyalin identitas maupun desain mereka secara langsung.
+
+Gunakan warna utama berdasarkan identitas visual sekolah dan sediakan pengaturan warna melalui CMS.
+
+Hindari:
+
+- Desain yang terlihat seperti template website gratis.
+- Terlalu banyak warna.
+- Animasi yang mengganggu.
+- Popup berlebihan.
+- Slider otomatis yang sulit dikendalikan.
+- Teks terlalu kecil.
+- Menu yang membingungkan.
+- Penggunaan elemen dekoratif yang tidak memiliki fungsi.
+
+### 6. STRUKTUR HALAMAN BERANDA
+
+Bangun halaman beranda dengan susunan sebagai berikut:
+
+**A. Top Bar**
+
+- Nomor telepon resmi.
+- Email sekolah.
+- Media sosial.
+- Pilihan bahasa.
+- Pencarian website.
+- Pengaturan aksesibilitas tambahan.
+
+**B. Header dan Navigation Bar**
+
+- Logo sekolah.
+- Nama sekolah.
+- Menu utama.
+- Dropdown atau mega menu.
+- Tombol layanan digital.
+- Navigasi mobile.
+
+**C. Hero Banner**
+
+- Banner kegiatan sekolah.
+- Ukuran referensi gambar desktop 1800 × 800 piksel.
+- Judul banner.
+- Deskripsi singkat.
+- Call to action.
+- Tautan tujuan.
+- Pengaturan jadwal tayang.
+- Pengaturan urutan banner.
+- Tombol navigasi dan kontrol jeda apabila menggunakan slider.
+
+**D. Pengumuman Penting**
+
+- Pengumuman terbaru.
+- Informasi SPMB.
+- Informasi akademik.
+- Informasi darurat.
+- Pengaturan masa berlaku pengumuman.
+
+**E. Quick Access**
+
+Tampilkan akses cepat berbentuk ikon atau kartu menuju:
+
+- SPMB.
+- e-Rapor.
+- LMS.
+- Perpustakaan Digital.
+- Bursa Kerja Khusus.
+- Tracer Study.
+- Layanan Administrasi.
+- Pengaduan Masyarakat.
+- Informasi Publik.
+- Survei Kepuasan.
+
+**F. Sambutan Kepala Sekolah**
+
+- Foto kepala sekolah.
+- Nama dan gelar.
+- Jabatan.
+- Kutipan sambutan.
+- Tombol baca selengkapnya.
+
+**G. Profil Singkat Sekolah**
+
+- Deskripsi sekolah.
+- Visi dan misi singkat.
+- Video profil.
+- Akreditasi.
+- Tombol jelajahi sekolah.
+
+**H. Konsentrasi Keahlian**
+
+Tampilkan dalam bentuk kartu profesional dengan foto, deskripsi, dan tombol detail.
+
+Gunakan data awal:
+
+1. Kuliner.
+2. Desain dan Produksi Busana.
+3. Perhotelan.
+4. Tata Kecantikan Kulit dan Rambut.
+5. Desain Komunikasi Visual.
+
+Seluruh program keahlian harus bersifat dinamis dan dapat ditambah, diubah, maupun dihapus melalui CMS.
+
+**I. Berita Terbaru**
+
+- Thumbnail.
+- Kategori.
+- Judul.
+- Ringkasan berita.
+- Tanggal publikasi.
+- Penulis.
+- Tombol baca selengkapnya.
+- Berita unggulan.
+
+**J. Prestasi Sekolah**
+
+- Prestasi siswa.
+- Prestasi guru.
+- Prestasi lembaga.
+- Tingkat kejuaraan.
+- Tahun prestasi.
+- Dokumentasi.
+
+**K. Agenda Kegiatan**
+
+- Kalender kegiatan.
+- Agenda mendatang.
+- Lokasi.
+- Waktu pelaksanaan.
+- Detail kegiatan.
+
+**L. Statistik Sekolah**
+
+Tampilkan statistik dinamis:
+
+- Jumlah peserta didik.
+- Jumlah guru.
+- Jumlah tenaga kependidikan.
+- Jumlah rombongan belajar.
+- Jumlah konsentrasi keahlian.
+- Jumlah mitra industri.
+- Jumlah alumni.
+- Jumlah prestasi.
+
+Gunakan data yang telah diverifikasi dan cantumkan periode pembaruan data.
+
+**M. Teaching Factory dan Karya Siswa**
+
+- Produk unggulan.
+- Karya peserta didik.
+- Jasa sekolah.
+- Inovasi siswa.
+- Portofolio.
+- Dokumentasi praktik.
+
+**N. Sarana dan Prasarana**
+
+- Laboratorium.
+- Bengkel praktik.
+- Perpustakaan.
+- Ruang kelas.
+- Fasilitas pendukung.
+- Fasilitas olahraga.
+- Fasilitas produksi.
+
+**O. Mitra Dunia Usaha dan Dunia Industri**
+
+- Logo mitra.
+- Nama perusahaan.
+- Bidang kerja sama.
+- Deskripsi kemitraan.
+- Dokumentasi kerja sama.
+
+**P. Testimoni**
+
+- Alumni.
+- Orang tua.
+- Mitra industri.
+- Peserta didik.
+
+Publikasikan testimoni setelah memperoleh persetujuan yang sesuai.
+
+**Q. Galeri Foto dan Video**
+
+- Album kegiatan.
+- Galeri prestasi.
+- Dokumentasi sekolah.
+- Video profil.
+- Video kegiatan.
+
+**R. Lokasi Sekolah**
+
+- Alamat lengkap.
+- Peta interaktif.
+- Petunjuk arah.
+- Kontak resmi.
+
+**S. Footer**
+
+- Identitas sekolah.
+- Kontak.
+- Tautan penting.
+- Media sosial.
+- Kebijakan privasi.
+- Informasi publik.
+- Sitemap.
+- Kebijakan penggunaan.
+- Hak cipta.
+- Pernyataan aksesibilitas.
+
+Seluruh section beranda harus dapat diaktifkan, dinonaktifkan, dan diatur urutannya melalui CMS.
+
+### 7. STRUKTUR MENU UTAMA
+
+**BERANDA**
+
+**PROFIL**
+
+- Sejarah Sekolah.
+- Visi dan Misi.
+- Sambutan Kepala Sekolah.
+- Profil Kepala Sekolah.
+- Struktur Organisasi.
+- Guru dan Tenaga Kependidikan.
+- Akreditasi.
+- Identitas Sekolah.
+- Statistik Sekolah.
+- Video Profil.
+
+**AKADEMIK**
+
+- Kurikulum.
+- Kalender Pendidikan.
+- Program Pembelajaran.
+- Jadwal Pembelajaran.
+- Teaching Factory.
+- e-Rapor.
+- Learning Management System.
+
+**KONSENTRASI KEAHLIAN**
+
+- Kuliner.
+- Desain dan Produksi Busana.
+- Perhotelan.
+- Tata Kecantikan Kulit dan Rambut.
+- Desain Komunikasi Visual.
+
+**KESISWAAN**
+
+- OSIS.
+- Ekstrakurikuler.
+- Prestasi Siswa.
+- Bimbingan dan Konseling.
+- Informasi Beasiswa.
+- SPMB.
+
+**HUMAS DAN INDUSTRI**
+
+- Kerja Sama Industri.
+- Praktik Kerja Lapangan.
+- Bursa Kerja Khusus.
+- Lowongan Pekerjaan.
+- Tracer Study.
+- Alumni.
+- Kunjungan Industri.
+- Guru Tamu.
+
+**SARANA DAN PRASARANA**
+
+- Laboratorium.
+- Bengkel Praktik.
+- Perpustakaan.
+- Ruang Pembelajaran.
+- Fasilitas Sekolah.
+- Sekolah ASRI.
+
+**BERITA DAN PUBLIKASI**
+
+- Berita Sekolah.
+- Artikel Pendidikan.
+- Pengumuman.
+- Agenda Kegiatan.
+- Prestasi.
+- Galeri Foto.
+- Galeri Video.
+- Unduhan.
+
+**PENJAMINAN MUTU**
+
+- Program Penjaminan Mutu.
+- Evaluasi Sekolah.
+- Survei Kepuasan.
+- Penilaian Kinerja Kepala Sekolah.
+- Ringkasan Hasil Evaluasi.
+- Dokumen Mutu yang dapat dipublikasikan.
+
+**LAYANAN DIGITAL**
+
+- Layanan Persuratan.
+- Legalisasi Ijazah.
+- Permohonan Informasi.
+- Pengaduan Masyarakat.
+- Layanan Alumni.
+- Perpustakaan Digital.
+- Portal Sistem Informasi.
+
+**INFORMASI PUBLIK**
+
+- Profil Informasi Publik.
+- Informasi Berkala.
+- Informasi Serta-Merta.
+- Informasi Setiap Saat.
+- Daftar Informasi Publik.
+- Standar Pelayanan.
+- SOP Pelayanan.
+- Transparansi yang sesuai ketentuan.
+- Permohonan Informasi.
+- Kanal Pengaduan.
+- Tautan PPID yang berwenang.
+
+**KONTAK**
+
+Kelompokkan menu menggunakan mega menu agar navigasi tetap ringkas.
+
+Seluruh menu harus dapat dikelola secara dinamis melalui panel administrator, termasuk menu bertingkat, tautan internal, tautan eksternal, urutan menu, dan status publikasi.
+
+### 8. MODUL KONSENTRASI KEAHLIAN
+
+Setiap konsentrasi keahlian memiliki halaman tersendiri yang memuat:
+
+- Nama konsentrasi keahlian.
+- Logo atau ikon.
+- Foto unggulan.
+- Profil konsentrasi keahlian.
+- Visi dan tujuan.
+- Kompetensi yang dipelajari.
+- Struktur pembelajaran.
+- Profil tenaga pengajar.
+- Kepala konsentrasi keahlian.
+- Laboratorium dan fasilitas.
+- Prospek karier.
+- Mitra industri.
+- Prestasi siswa.
+- Hasil karya siswa.
+- Teaching Factory.
+- Galeri foto.
+- Video profil.
+- Berita terkait.
+- Kontak penanggung jawab resmi.
+
+### 9. CONTENT MANAGEMENT SYSTEM (CMS)
+
+Bangun CMS yang komprehensif dengan dashboard administrator profesional.
+
+Sediakan modul:
+
+1. Dashboard.
+2. Manajemen halaman.
+3. Manajemen menu.
+4. Manajemen berita.
+5. Manajemen kategori.
+6. Manajemen tag.
+7. Manajemen pengumuman.
+8. Manajemen agenda.
+9. Manajemen banner.
+10. Manajemen galeri.
+11. Manajemen video.
+12. Media library.
+13. Manajemen guru dan tenaga kependidikan.
+14. Manajemen konsentrasi keahlian.
+15. Manajemen prestasi.
+16. Manajemen ekstrakurikuler.
+17. Manajemen sarana prasarana.
+18. Manajemen mitra industri.
+19. Manajemen alumni.
+20. Manajemen BKK dan lowongan pekerjaan.
+21. Manajemen Teaching Factory.
+22. Manajemen karya siswa.
+23. Manajemen dokumen dan unduhan.
+24. Manajemen informasi publik.
+25. Manajemen SOP pelayanan.
+26. Manajemen formulir.
+27. Manajemen pengaduan.
+28. Manajemen survei.
+29. Manajemen statistik.
+30. Manajemen pengguna.
+31. Manajemen role dan permission.
+32. Pengaturan SEO.
+33. Pengaturan tampilan.
+34. Pengaturan identitas sekolah.
+35. Pengaturan integrasi sistem.
+36. Backup dan restore.
+37. Audit log.
+38. Monitoring sistem.
+39. Pengaturan bahasa.
+40. Pengaturan notifikasi.
+
+Setiap modul wajib menyediakan fungsi CRUD yang relevan, pencarian, filter, pagination, validasi input, konfirmasi penghapusan, dan pesan keberhasilan atau kegagalan.
+
+### 10. DASHBOARD ADMINISTRATOR
+
+Buat dashboard yang informatif dengan tampilan modern.
+
+Tampilkan:
+
+- Total berita.
+- Total halaman.
+- Total pengunjung berdasarkan data yang tersedia.
+- Total pengumuman.
+- Total agenda.
+- Total prestasi.
+- Total mitra industri.
+- Total media.
+- Total pengguna.
+- Berita populer.
+- Statistik pengunjung.
+- Grafik publikasi berita.
+- Aktivitas administrator.
+- Permohonan layanan masuk.
+- Pengaduan masuk.
+- Konten menunggu persetujuan.
+- Status penyimpanan.
+- Status backup terakhir.
+- Status kesehatan sistem.
+- Notifikasi pembaruan dan keamanan.
+
+Sediakan filter berdasarkan:
+
+- Tanggal.
+- Minggu.
+- Bulan.
+- Tahun.
+- Rentang waktu khusus.
+
+Sediakan ekspor laporan dalam format PDF, Excel, dan CSV sesuai kebutuhan dan hak akses pengguna.
+
+Jangan menggunakan angka statistik palsu. Ambil data dari database atau integrasi analitik yang tersedia.
+
+### 11. ROLE DAN HAK AKSES
+
+Gunakan Role-Based Access Control (RBAC) dengan hak akses granular.
+
+Sediakan role awal:
+
+**Super Administrator**
+
+- Akses penuh terhadap sistem.
+- Manajemen pengguna.
+- Manajemen permission.
+- Pengaturan sistem.
+- Backup dan restore.
+- Audit keamanan.
+
+**Administrator Website**
+
+- Pengelolaan konten dan konfigurasi yang diizinkan.
+- Manajemen halaman.
+- Manajemen banner.
+- Manajemen media.
+
+**Editor/Redaktur**
+
+- Pemeriksaan artikel.
+- Penyuntingan artikel.
+- Persetujuan publikasi.
+- Penjadwalan publikasi.
+
+**Penulis Berita/Humas**
+
+- Membuat artikel.
+- Mengunggah dokumentasi.
+- Mengedit artikel milik sendiri.
+- Mengajukan artikel untuk persetujuan.
+
+**Operator Sekolah**
+
+- Memperbarui data kelembagaan.
+- Memperbarui statistik sekolah.
+- Mengelola informasi sesuai kewenangan.
+
+**Operator Konsentrasi Keahlian**
+
+- Mengelola konten program keahlian masing-masing.
+- Mengunggah berita, karya, dan prestasi.
+
+**Petugas BKK**
+
+- Mengelola lowongan pekerjaan.
+- Mengelola informasi alumni.
+- Mengelola informasi mitra industri.
+
+**Petugas Layanan Administrasi**
+
+- Memproses permohonan layanan.
+- Memperbarui status permohonan.
+- Membuat laporan layanan.
+
+**Petugas Informasi Publik**
+
+- Mengelola dokumen publik.
+- Mengelola permohonan informasi sesuai kewenangan.
+
+**Kepala Sekolah/Pimpinan**
+
+- Melihat dashboard.
+- Melihat laporan.
+- Memberikan persetujuan sesuai kebutuhan.
+
+Role dan permission dapat dibuat serta disesuaikan tanpa mengubah source code.
+
+Pastikan otorisasi diterapkan pada backend, bukan hanya menyembunyikan tombol pada frontend.
+
+### 12. MODUL BERITA DAN PUBLIKASI
+
+Bangun sistem pemberitaan profesional dengan fitur:
+
+- Judul artikel.
+- Slug otomatis.
+- Ringkasan.
+- Rich text editor.
+- Featured image.
+- Galeri foto.
+- Video.
+- Kategori.
+- Tag.
+- Penulis.
+- Editor.
+- Tanggal kegiatan.
+- Tanggal publikasi.
+- Jadwal publikasi.
+- SEO title.
+- Meta description.
+- Open Graph.
+- Alt text gambar.
+- Artikel terkait.
+- Penghitung kunjungan yang memperhatikan privasi.
+- Tombol berbagi.
+- Preview artikel.
+- Riwayat revisi.
+- Autosave draft.
+- Arsip berita.
+- Soft delete.
+- Pemulihan artikel terhapus.
+
+Gunakan workflow:
+
+Draft → Pengajuan → Review → Revisi jika diperlukan → Persetujuan → Penjadwalan → Publikasi → Arsip.
+
+Sediakan kategori awal:
+
+- Kegiatan Sekolah.
+- Akademik.
+- Kesiswaan.
+- Humas.
+- Prestasi.
+- Dunia Industri.
+- Konsentrasi Keahlian.
+- Teaching Factory.
+- Penjaminan Mutu.
+- PKKS.
+- Pengembangan SDM.
+- Alumni.
+- Artikel Pendidikan.
+- Pengumuman.
+
+Terapkan prinsip penulisan berita 5W+1H.
+
+### 13. MEDIA LIBRARY DAN BANNER
+
+Sediakan pengelolaan media terpusat dengan fitur:
+
+- Drag and drop upload.
+- Multiple upload.
+- Folder media.
+- Pencarian media.
+- Filter jenis file.
+- Crop gambar.
+- Resize gambar.
+- Kompresi otomatis.
+- Konversi WebP atau AVIF sesuai dukungan.
+- Thumbnail otomatis.
+- Alt text.
+- Caption.
+- Informasi sumber dan hak cipta.
+- Deteksi file duplikat.
+- Preview media.
+- Pembatasan ukuran file.
+- Validasi MIME type dan keamanan file.
+
+Sediakan pengaturan banner berukuran referensi 1800 × 800 piksel dengan crop responsif, focal point, jadwal tayang, dan tautan tujuan.
+
+Jangan menyimpan atau menampilkan file unggahan berbahaya. Dokumen internal dan dokumen yang memuat data pribadi harus menggunakan penyimpanan serta hak akses terpisah.
+
+### 14. MODUL SPMB
+
+Sediakan halaman informasi Sistem Penerimaan Murid Baru yang memuat:
+
+- Informasi penerimaan.
+- Persyaratan.
+- Jadwal.
+- Daya tampung berdasarkan data resmi.
+- Konsentrasi keahlian.
+- Alur pendaftaran.
+- FAQ.
+- Dokumen panduan.
+- Kontak panitia resmi.
+- Pengumuman.
+- Tautan portal SPMB resmi pemerintah daerah.
+
+Apabila sekolah tidak memiliki kewenangan menyelenggarakan pendaftaran mandiri, jangan membuat sistem pendaftaran yang bertentangan dengan sistem resmi. Gunakan integrasi atau tautan resmi.
+
+### 15. MODUL BURSA KERJA KHUSUS DAN ALUMNI
+
+Sediakan:
+
+- Informasi lowongan pekerjaan.
+- Profil perusahaan.
+- Persyaratan lowongan.
+- Batas pendaftaran.
+- Status lowongan.
+- Informasi rekrutmen.
+- Tracer study.
+- Kisah sukses alumni.
+- Statistik alumni dalam bentuk agregat.
+- Informasi pelatihan kerja.
+- Informasi sertifikasi kompetensi.
+- Kemitraan industri.
+
+Lindungi identitas, kontak, dan dokumen pribadi alumni maupun pelamar.
+
+### 16. MODUL LAYANAN ADMINISTRASI DIGITAL
+
+Bangun sistem layanan administrasi yang meliputi:
+
+- Permohonan surat keterangan.
+- Permohonan legalisasi ijazah.
+- Permohonan dokumen alumni.
+- Permohonan informasi.
+- Pengaduan masyarakat.
+- Layanan administrasi lainnya.
+
+Setiap layanan memiliki:
+
+- Deskripsi layanan.
+- Persyaratan.
+- SOP.
+- Estimasi waktu pelayanan.
+- Formulir online.
+- Unggah dokumen pendukung.
+- Nomor tiket permohonan.
+- Pelacakan status.
+- Notifikasi.
+- Riwayat permohonan.
+- Feedback kepuasan.
+
+Gunakan workflow:
+
+Diajukan → Diverifikasi → Diproses → Selesai.
+
+Sediakan status tambahan berupa Perlu Perbaikan, Ditolak, dan Dibatalkan beserta alasan yang dapat dicatat.
+
+Pelacakan permohonan harus menggunakan autentikasi atau mekanisme verifikasi yang aman dan tidak membuka data pribadi kepada pihak lain.
+
+### 17. MODUL PENJAMINAN MUTU
+
+Sediakan:
+
+- Publikasi program mutu.
+- Survei kepuasan sekolah.
+- Survei kepuasan siswa.
+- Survei kepuasan orang tua.
+- Survei kepuasan mitra industri.
+- Analisis hasil survei.
+- Grafik hasil survei.
+- Ringkasan evaluasi.
+- Rencana tindak lanjut.
+- Dokumentasi PKKS.
+- Dokumentasi kegiatan supervisi.
+- Dokumen mutu.
+- Ekspor laporan.
+
+Pisahkan akses dokumen internal dengan dokumen yang diizinkan untuk publikasi.
+
+Data hasil survei yang ditampilkan kepada publik harus dalam bentuk agregat dan tidak mengungkap identitas responden.
+
+### 18. MODUL INFORMASI PUBLIK
+
+Bangun halaman keterbukaan informasi sesuai kewenangan sekolah dan koordinasi dengan PPID yang berwenang.
+
+Sediakan:
+
+- Informasi berkala.
+- Informasi serta-merta.
+- Informasi setiap saat.
+- Daftar informasi publik.
+- Standar pelayanan.
+- SOP pelayanan.
+- Regulasi.
+- Laporan publik.
+- Informasi anggaran yang dapat dipublikasikan.
+- Formulir permohonan informasi.
+- Kanal pengaduan.
+- Tautan PPID resmi.
+
+Sediakan klasifikasi dokumen:
+
+- Publik.
+- Internal.
+- Terbatas.
+- Rahasia.
+
+Pastikan hanya dokumen dengan status publik dan telah memperoleh persetujuan yang dapat diakses masyarakat.
+
+### 19. INTEGRASI SISTEM INFORMASI
+
+Gunakan arsitektur modular dan API-ready untuk mendukung integrasi dengan:
+
+- e-Rapor.
+- Dapodik.
+- Learning Management System.
+- Perpustakaan Digital.
+- Sistem Informasi Akademik.
+- Sistem Informasi Kepegawaian.
+- Sistem Persuratan.
+- Sistem Arsip Digital.
+- Sistem BKK.
+- Tracer Study.
+- Google Workspace.
+- Sistem layanan sekolah lainnya.
+
+Sediakan dua metode integrasi:
+
+1. Tautan menuju sistem eksternal resmi.
+2. Integrasi API apabila tersedia secara resmi dan memperoleh otorisasi.
+
+Jangan mengakses database Dapodik atau e-Rapor secara langsung tanpa kewenangan dan mekanisme integrasi yang sah.
+
+Jangan mengekspos kredensial, token, database, maupun layanan internal ke internet publik.
+
+### 20. STANDAR SEO
+
+Terapkan:
+
+- SEO-friendly URL.
+- Unique page title.
+- Meta description.
+- Canonical URL.
+- XML sitemap otomatis.
+- Robots.txt.
+- Open Graph.
+- Social media preview.
+- Breadcrumb.
+- Internal linking.
+- Structured data JSON-LD.
+- Semantic HTML.
+- Redirect 301.
+- Halaman 404 yang informatif.
+- Pagination SEO.
+- Image alt text.
+- Optimasi gambar.
+- Integrasi Google Search Console.
+- Integrasi analitik dengan perlindungan privasi.
+
+Gunakan structured data yang relevan, antara lain:
+
+- EducationalOrganization.
+- School.
+- Organization.
+- Article.
+- NewsArticle.
+- BreadcrumbList.
+- Event.
+- JobPosting jika memenuhi persyaratan.
+
+Pastikan metadata dapat diatur per halaman melalui CMS.
+
+### 21. STANDAR PERFORMA WEBSITE
+
+Targetkan Core Web Vitals kategori baik:
+
+- LCP maksimal 2,5 detik.
+- INP maksimal 200 milidetik.
+- CLS maksimal 0,1.
+
+Targetkan skor Lighthouse:
+
+- Performance: minimal 90.
+- Accessibility: minimal 95.
+- Best Practices: minimal 90.
+- SEO: minimal 95.
+
+Lakukan optimasi melalui:
+
+- Lazy loading gambar di luar area tampilan awal.
+- Responsive images.
+- WebP atau AVIF.
+- Minifikasi CSS dan JavaScript.
+- Code splitting.
+- Browser caching.
+- Server-side caching.
+- Database indexing.
+- Optimasi database query.
+- Pagination.
+- CDN jika diperlukan.
+- Brotli atau Gzip.
+- Optimasi font.
+- Pengurangan JavaScript yang tidak diperlukan.
+- Pencegahan layout shift.
+- Prioritas pemuatan konten utama.
+
+Lakukan pengujian pada perangkat desktop dan smartphone, terutama koneksi internet yang terbatas.
+
+Target skor merupakan acceptance criteria pengembangan, bukan klaim bahwa website telah memenuhi standar sebelum diuji.
+
+### 22. STANDAR AKSESIBILITAS
+
+Terapkan WCAG 2.2 Level AA dengan memperhatikan:
+
+- Semantic HTML.
+- Alt text gambar informatif.
+- Kontras teks normal minimal 4,5:1.
+- Kontras teks besar minimal 3:1.
+- Navigasi keyboard.
+- Focus indicator.
+- Skip to content.
+- Label formulir.
+- Heading yang terstruktur.
+- Screen reader support.
+- Caption video.
+- Pesan kesalahan yang informatif.
+- Pembesaran teks hingga 200%.
+- Reflow pada layar sempit.
+- Reduced motion.
+- Kontrol slider dan animasi.
+- Ukuran target interaksi yang memadai.
+- Informasi tidak bergantung pada warna saja.
+
+Sediakan fitur tambahan jika diperlukan:
+
+- Pengaturan ukuran teks.
+- Kontras tinggi.
+- Pengaturan animasi.
+- Reset pengaturan aksesibilitas.
+
+Fitur tambahan tersebut tidak menggantikan kewajiban membangun struktur website yang aksesibel.
+
+### 23. STANDAR KEAMANAN
+
+Terapkan keamanan berlapis dengan acuan OWASP.
+
+Gunakan:
+
+- HTTPS.
+- Secure password hashing menggunakan Argon2id atau bcrypt sesuai framework.
+- Two-factor authentication bagi administrator.
+- Role-Based Access Control.
+- Backend authorization.
+- CSRF protection.
+- XSS prevention.
+- SQL injection prevention.
+- Input validation.
+- Output escaping.
+- Rate limiting.
+- Login throttling.
+- Secure session management.
+- Secure, HttpOnly, dan SameSite cookies sesuai kebutuhan.
+- Session timeout.
+- Session revocation.
+- Secure password reset.
+- Content Security Policy.
+- Security headers.
+- File upload validation.
+- Database backup.
+- Enkripsi data sensitif sesuai kebutuhan.
+- Audit log.
+- Monitoring aktivitas mencurigakan.
+- Dependency security scanning.
+- Error handling yang aman.
+- Proteksi terhadap brute force.
+
+Pastikan:
+
+- Password tidak pernah disimpan dalam bentuk plaintext.
+- Kredensial tidak ditulis langsung dalam source code.
+- Gunakan environment variables.
+- File konfigurasi sensitif tidak dapat diakses publik.
+- Debug mode dinonaktifkan pada production.
+- Data pribadi siswa tidak ditampilkan sembarangan.
+- Dokumen internal dilindungi.
+- Administrator dapat mencabut sesi login yang aktif.
+- Tersedia mekanisme pemulihan sistem yang telah diuji.
+
+### 24. STANDAR DATABASE
+
+Rancang database relasional yang terstruktur, normal, aman, dan scalable.
+
+Sediakan tabel atau entitas yang relevan untuk:
+
+- Users.
+- Roles.
+- Permissions.
+- School settings.
+- Menus.
+- Pages.
+- Posts.
+- Categories.
+- Tags.
+- Media.
+- Banners.
+- Announcements.
+- Events.
+- Teachers.
+- Staff.
+- Departments.
+- Achievements.
+- Extracurriculars.
+- Facilities.
+- Industry partners.
+- Alumni.
+- Job vacancies.
+- Student works.
+- Teaching factory.
+- Galleries.
+- Documents.
+- Public information.
+- Services.
+- Service requests.
+- Complaints.
+- Surveys.
+- Survey responses.
+- Notifications.
+- SEO metadata.
+- Audit logs.
+- Visitor analytics.
+- Backup logs.
+- System settings.
+
+Gunakan:
+
+- Primary key.
+- Foreign key.
+- Index yang relevan.
+- Unique constraints.
+- Referential integrity.
+- Database migration.
+- Seeder.
+- Timestamp.
+- Soft delete untuk entitas yang sesuai.
+- Transaction untuk operasi penting.
+- Kebijakan retensi data.
+
+Buat Entity Relationship Diagram (ERD) dan dokumentasi struktur database.
+
+### 25. ARSITEKTUR DAN TEKNOLOGI
+
+Gunakan teknologi stabil yang masih mendapatkan dukungan keamanan.
+
+Untuk lingkungan hosting sekolah yang menggunakan PHP dan MySQL, prioritaskan:
+
+**Backend**
+
+- Laravel versi stabil yang didukung.
+- REST API.
+- Service layer apabila diperlukan.
+- Modular architecture.
+
+**Frontend**
+
+- Laravel Blade.
+- Tailwind CSS.
+- Alpine.js atau Livewire sesuai kebutuhan.
+- JavaScript yang efisien.
+- Chart.js atau library grafik yang sesuai.
+
+**Database**
+
+- MySQL atau MariaDB yang masih didukung.
+
+**Web Server**
+
+- Apache atau Nginx.
+
+**Deployment**
+
+- Shared hosting yang kompatibel.
+- cPanel.
+- VPS.
+- Cloud server.
+
+Jika menggunakan arsitektur lain seperti Next.js, React, Node.js, atau PostgreSQL, jelaskan alasan pemilihan, kebutuhan hosting, biaya pemeliharaan, dan konsekuensi teknisnya.
+
+Jangan menambahkan dependensi, microservices, atau teknologi kompleks tanpa kebutuhan nyata.
+
+### 26. BACKUP DAN PEMELIHARAAN
+
+Sediakan:
+
+- Backup database manual.
+- Backup terjadwal.
+- Backup file dan media.
+- Penyimpanan backup yang aman.
+- Riwayat backup.
+- Pengaturan retensi backup.
+- Restore dengan verifikasi dan konfirmasi.
+- Monitoring kesehatan sistem.
+- Log kesalahan.
+- Maintenance mode.
+- Pemeriksaan broken link.
+- Pemeriksaan sertifikat HTTPS.
+- Pemeriksaan kapasitas penyimpanan.
+- Pemeriksaan pembaruan dependensi.
+
+Pastikan file backup tidak dapat diakses melalui direktori publik website.
+
+### 27. FITUR AI OPSIONAL
+
+Siapkan modul AI yang dapat diaktifkan atau dinonaktifkan, meliputi:
+
+- Asisten penulisan berita.
+- Rekomendasi judul berita.
+- Pembuatan meta description.
+- Rekomendasi tag.
+- Pembuatan ringkasan artikel.
+- Pemeriksaan tata bahasa.
+- Rekomendasi alt text.
+- Penerjemahan artikel.
+- Chatbot informasi sekolah.
+- Pencarian informasi berbasis AI.
+
+Seluruh hasil AI harus dapat diperiksa dan disunting manusia.
+
+Chatbot hanya menggunakan informasi publik sekolah yang telah diverifikasi. Jika informasi tidak tersedia, chatbot harus mengakui keterbatasannya dan mengarahkan pengguna kepada kontak resmi.
+
+Jangan mengirimkan data pribadi siswa, kredensial, atau dokumen rahasia kepada layanan AI eksternal tanpa dasar pemrosesan yang sah dan perlindungan yang sesuai.
+
+### 28. PENGUJIAN DAN QUALITY ASSURANCE
+
+Lakukan pengujian terhadap:
+
+- Functional testing.
+- Unit testing.
+- Integration testing.
+- End-to-end testing.
+- Responsive testing.
+- Cross-browser testing.
+- Security testing.
+- Accessibility testing.
+- Performance testing.
+- SEO testing.
+- Broken link testing.
+- Form validation testing.
+- Role and permission testing.
+- Backup and restore testing.
+- File upload testing.
+- Database integrity testing.
+- User acceptance testing.
+
+Gunakan alat evaluasi yang relevan:
+
+- Google Lighthouse.
+- Google PageSpeed Insights.
+- W3C Markup Validator.
+- WAVE Accessibility Evaluation Tool.
+- axe.
+- OWASP ZAP pada lingkungan yang diizinkan.
+- SSL Labs.
+- Security Headers.
+- Google Rich Results Test.
+
+Jangan menyatakan pengujian berhasil apabila pengujian belum benar-benar dijalankan.
+
+### 29. INSTRUMEN EVALUASI WEBSITE
+
+Gunakan bobot evaluasi internal berikut:
+
+| Aspek | Bobot |
+|---|---:|
+| Kelengkapan dan kualitas konten | 20% |
+| Desain visual | 10% |
+| Kemudahan penggunaan | 10% |
+| Performa | 10% |
+| Keamanan dan privasi | 10% |
+| Keterbukaan informasi publik | 10% |
+| Integrasi layanan digital | 10% |
+| SEO | 8% |
+| Responsive design | 7% |
+| Aksesibilitas | 5% |
+| **Total** | **100%** |
+
+Targetkan nilai evaluasi internal minimal 95/100.
+
+Meskipun nilai agregat tinggi, website tidak dapat dinyatakan siap produksi jika masih terdapat kerentanan kritis, kebocoran data, kegagalan fungsi utama, atau hambatan aksesibilitas yang serius.
+
+### 30. OUTPUT YANG WAJIB DIHASILKAN
+
+Hasilkan:
+
+1. Software Requirements Specification (SRS).
+2. Analisis kebutuhan sistem.
+3. Sitemap.
+4. User flow.
+5. Wireframe.
+6. Design system.
+7. UI/UX halaman publik.
+8. UI/UX dashboard administrator.
+9. Arsitektur sistem.
+10. Entity Relationship Diagram.
+11. Struktur database.
+12. Struktur folder proyek.
+13. Source code frontend.
+14. Source code backend.
+15. Database migration.
+16. Database seeder.
+17. Dokumentasi API.
+18. File konfigurasi `.env.example`.
+19. Dokumentasi instalasi.
+20. Dokumentasi deployment.
+21. Panduan administrator.
+22. Panduan penulis berita.
+23. Panduan pengelolaan konten.
+24. SOP backup dan restore.
+25. SOP keamanan website.
+26. Test cases.
+27. Laporan hasil pengujian.
+28. Laporan evaluasi website.
+29. Roadmap pengembangan.
+30. Changelog dan versioning.
+
+Sediakan README yang menjelaskan seluruh prosedur instalasi dan penggunaan.
+
+### 31. TAHAPAN PENGEMBANGAN
+
+Kerjakan secara sistematis dalam tahapan:
+
+**Phase 1 — Planning & Architecture**
+
+- Analisis kebutuhan.
+- Sitemap.
+- User flow.
+- Arsitektur.
+- ERD.
+- Pemilihan teknologi.
+
+**Phase 2 — Core System**
+
+- Database.
+- Authentication.
+- Authorization.
+- Role dan permission.
+- Pengaturan sistem.
+- Dashboard administrator.
+
+**Phase 3 — Public Website**
+
+- Beranda.
+- Profil.
+- Navigasi.
+- Konsentrasi keahlian.
+- Berita.
+- Pengumuman.
+- Agenda.
+- Prestasi.
+- Galeri.
+- Kontak.
+
+**Phase 4 — Content Management System**
+
+- Seluruh modul pengelolaan konten.
+- Media library.
+- Workflow publikasi.
+- SEO.
+- Pengaturan tampilan.
+
+**Phase 5 — School Services**
+
+- SPMB.
+- BKK.
+- Alumni.
+- Teaching Factory.
+- Layanan administrasi.
+- Informasi publik.
+- Penjaminan mutu.
+- Survei.
+
+**Phase 6 — Integration & Optimization**
+
+- Integrasi layanan.
+- API.
+- Performa.
+- SEO.
+- Aksesibilitas.
+- Keamanan.
+
+**Phase 7 — Testing & Deployment**
+
+- Pengujian menyeluruh.
+- Perbaikan bug.
+- Backup.
+- Dokumentasi.
+- Deployment.
+- User acceptance testing.
+
+### 32. INSTRUKSI AKHIR UNTUK AI DEVELOPER
+
+Jangan membuat aplikasi yang hanya terlihat bagus secara visual tetapi tidak berfungsi.
+
+Jangan menggunakan tombol dummy, menu kosong, API palsu, statistik palsu, atau formulir yang tidak terhubung dengan backend.
+
+Gunakan data contoh hanya untuk keperluan development dan seeder, dengan penandaan yang jelas.
+
+Pastikan seluruh fitur dapat dikelola melalui panel administrator.
+
+Jika terdapat kebutuhan yang belum diketahui, gunakan asumsi teknis yang wajar, dokumentasikan asumsi tersebut, dan jadikan pengaturannya fleksibel.
+
+Jika terdapat sistem lama, pelajari struktur source code, database, dan fitur yang sudah berjalan sebelum melakukan perubahan. Jangan menghilangkan fitur lama atau merusak data yang sudah ada.
+
+Setiap perubahan database wajib menggunakan migration yang aman.
+
+Gunakan version control dan changelog.
+
+Jangan menghapus atau menimpa data produksi tanpa backup dan persetujuan.
+
+Untuk setiap tahapan, berikan:
+
+- Ringkasan pekerjaan.
+- Daftar fitur yang selesai.
+- Daftar file yang dibuat.
+- Daftar file yang dimodifikasi.
+- Instruksi instalasi atau pembaruan.
+- Hasil pengujian yang benar-benar dilakukan.
+- Bug yang ditemukan.
+- Keterbatasan sistem.
+- Rekomendasi pengembangan berikutnya.
+
+Mulai dari penyusunan Software Requirements Specification, sitemap, arsitektur sistem, ERD, design system, serta struktur proyek. Kemudian lanjutkan implementasi secara bertahap hingga menghasilkan aplikasi website SMK yang benar-benar fungsional, aman, profesional, dan dapat dipelihara dalam jangka panjang.
